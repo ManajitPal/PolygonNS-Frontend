@@ -15,7 +15,7 @@ const App = () => {
 				<div className="header-container">
 					<header>
             <div className="left">
-              <p className="title">🐱‍👤 Ninja Name Service</p>
+              <p className="title">Custom Name Service</p>
               <p className="subtitle">Your immortal API on the blockchain!</p>
             </div>
 					</header>
@@ -23,12 +23,7 @@ const App = () => {
 
         <div className="footer-container">
 					<img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
-					<a
-						className="footer-text"
-						href={TWITTER_LINK}
-						target="_blank"
-						rel="noreferrer"
-					>{`built with @${TWITTER_HANDLE}`}</a>
+				
 				</div>
 			</div>
 		</div>
